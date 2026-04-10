@@ -4,5 +4,5 @@
 </template>
 
 <script setup lang="ts">
-import { NButton } from 'naive-ui';
+import { NButton } from "naive-ui";
 </script>
