@@ -1,5 +1,82 @@
-# Vue 3 + TypeScript + Vite
+# 低代码可视化搭建平台 (Low-Code Visual Builder)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> 基于 Vue 3 + TypeScript 实现的低代码可视化页面搭建平台，支持拖拽组件、动态配置、JSON Schema 渲染及数据可视化功能。
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## 🚀 项目演示
+
+TODO:
+
+---
+
+## 🧱 技术栈
+
+- **框架与语言**: Vue 3 + TypeScript + Vite
+- **状态管理**: Pinia
+- **拖拽功能**: SortableJS
+- **UI 组件库**: Naive UI / Element Plus
+- **数据可视化**: ECharts
+- **样式工具**: TailwindCSS
+
+---
+
+## 🛠 功能模块
+
+### 1️⃣ 编辑器布局
+
+- 三栏布局：组件区 / 画布区 / 配置区
+- 可拖拽组件到画布
+- 支持组件选中、高亮与删除
+
+### 2️⃣ 拖拽组件系统
+
+- 左侧组件库，支持拖拽至画布
+- 支持排序与删除
+- 可扩展自定义组件
+
+### 3️⃣ 动态组件渲染
+
+- 基于 JSON Schema 渲染组件
+- 支持实时更新配置
+- 提供页面实时预览功能
+
+### 4️⃣ 组件配置系统
+
+- 点击组件即可配置属性
+- 支持文本、颜色、尺寸等属性编辑
+- 配置实时更新渲染结果
+
+### 5️⃣ 数据可视化模块
+
+- 支持折线图、柱状图、饼图
+- 可与数据源绑定，动态更新
+
+### 6️⃣ 页面导出功能
+
+- 支持导出 JSON 配置
+- 可生成静态页面
+
+---
+
+## ⚡ 核心亮点
+
+- 拖拽式组件系统 + 实时渲染引擎
+- JSON Schema 驱动页面生成，实现低代码能力
+- 可扩展组件注册机制，支持快速添加自定义组件
+- 数据可视化组件集成，支持企业级运营看板
+
+---
+
+## 📂 项目结构
+
+src
+├─ components
+│ ├─ editor # 编辑器相关组件
+│ ├─ widgets # 基础组件库
+├─ views
+│ └─ editor # 编辑器视图
+├─ store # Pinia 状态管理
+├─ hooks # 自定义 Hook
+├─ utils # 工具函数
+├─ schema # JSON schema 数据
