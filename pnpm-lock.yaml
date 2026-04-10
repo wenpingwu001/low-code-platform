@@ -1,0 +1,1697 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@tailwindcss/vite':
+        specifier: ^4.2.2
+        version: 4.2.2(vite@7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0))
+      echarts:
+        specifier: ^6.0.0
+        version: 6.0.0
+      pinia:
+        specifier: ^3.0.4
+        version: 3.0.4(typescript@5.9.3)(vue@3.5.32(typescript@5.9.3))
+      vue:
+        specifier: ^3.5.25
+        version: 3.5.32(typescript@5.9.3)
+    devDependencies:
+      '@types/node':
+        specifier: ^24.10.1
+        version: 24.12.2
+      '@vitejs/plugin-vue':
+        specifier: ^6.0.2
+        version: 6.0.5(vite@7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0))(vue@3.5.32(typescript@5.9.3))
+      '@vue/tsconfig':
+        specifier: ^0.8.1
+        version: 0.8.1(typescript@5.9.3)(vue@3.5.32(typescript@5.9.3))
+      autoprefixer:
+        specifier: ^10.4.27
+        version: 10.4.27(postcss@8.5.9)
+      naive-ui:
+        specifier: ^2.44.1
+        version: 2.44.1(vue@3.5.32(typescript@5.9.3))
+      postcss:
+        specifier: ^8.5.9
+        version: 8.5.9
+      tailwindcss:
+        specifier: ^4.2.2
+        version: 4.2.2
+      typescript:
+        specifier: ~5.9.3
+        version: 5.9.3
+      vfonts:
+        specifier: ^0.0.3
+        version: 0.0.3
+      vite:
+        specifier: ^7.3.1
+        version: 7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)
+      vue-tsc:
+        specifier: ^3.1.5
+        version: 3.2.6(typescript@5.9.3)
+
+packages:
+
+  '@babel/helper-string-parser@7.27.1':
+    resolution: {integrity: sha1-VNp5YJerGc5n7Z+ItHuy7Ek2doc=, tarball: http://r.npm.sankuai.com/@babel/helper-string-parser/download/@babel/helper-string-parser-7.27.1.tgz}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-validator-identifier@7.28.5':
+    resolution: {integrity: sha1-AQtpOPq3y333SqK7wGqlA7j+X7Q=, tarball: http://r.npm.sankuai.com/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.28.5.tgz}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/parser@7.29.2':
+    resolution: {integrity: sha1-WL1QuaeVHRNJiKGuF3o175pwO6E=, tarball: http://r.npm.sankuai.com/@babel/parser/download/@babel/parser-7.29.2.tgz}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
+  '@babel/types@7.29.0':
+    resolution: {integrity: sha1-n1seg4xEbnLPPNS5GBUrjGBeN8c=, tarball: http://r.npm.sankuai.com/@babel/types/download/@babel/types-7.29.0.tgz}
+    engines: {node: '>=6.9.0'}
+
+  '@css-render/plugin-bem@0.15.14':
+    resolution: {integrity: sha1-3hP8n1kpnCtkYRmFF2PfoIkps8E=, tarball: http://r.npm.sankuai.com/@css-render/plugin-bem/download/@css-render/plugin-bem-0.15.14.tgz}
+    peerDependencies:
+      css-render: ~0.15.14
+
+  '@css-render/vue3-ssr@0.15.14':
+    resolution: {integrity: sha1-ovTe3D6GIRo84URVVSZQlbdzZJE=, tarball: http://r.npm.sankuai.com/@css-render/vue3-ssr/download/@css-render/vue3-ssr-0.15.14.tgz}
+    peerDependencies:
+      vue: ^3.0.11
+
+  '@emotion/hash@0.8.0':
+    resolution: {integrity: sha1-u7/2iXj+/b5ozLUzvIy+HRr7VBM=, tarball: http://r.npm.sankuai.com/@emotion/hash/download/@emotion/hash-0.8.0.tgz}
+
+  '@esbuild/aix-ppc64@0.27.7':
+    resolution: {integrity: sha1-grdPkqp41yC3FBYpOfskjJCt31M=, tarball: http://r.npm.sankuai.com/@esbuild/aix-ppc64/download/@esbuild/aix-ppc64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [aix]
+
+  '@esbuild/android-arm64@0.27.7':
+    resolution: {integrity: sha1-94y4oxIfwgWlMoWtskly2zhdGF0=, tarball: http://r.npm.sankuai.com/@esbuild/android-arm64/download/@esbuild/android-arm64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [android]
+
+  '@esbuild/android-arm@0.27.7':
+    resolution: {integrity: sha1-WT4QoUULv8rGyzIfYfRoRTusIJ0=, tarball: http://r.npm.sankuai.com/@esbuild/android-arm/download/@esbuild/android-arm-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [android]
+
+  '@esbuild/android-x64@0.27.7':
+    resolution: {integrity: sha1-RTFD0HMyYDPS0iyvnkjeS64nSwc=, tarball: http://r.npm.sankuai.com/@esbuild/android-x64/download/@esbuild/android-x64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [android]
+
+  '@esbuild/darwin-arm64@0.27.7':
+    resolution: {integrity: sha1-byMAD7m0C34Et9BgbAaTvQYy8yI=, tarball: http://r.npm.sankuai.com/@esbuild/darwin-arm64/download/@esbuild/darwin-arm64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@esbuild/darwin-x64@0.27.7':
+    resolution: {integrity: sha1-Jzk90YuxJjxmOXnF8VduAMLQJL4=, tarball: http://r.npm.sankuai.com/@esbuild/darwin-x64/download/@esbuild/darwin-x64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@esbuild/freebsd-arm64@0.27.7':
+    resolution: {integrity: sha1-IuRjj6UC0cACcHcyTJdkDjrfOmI=, tarball: http://r.npm.sankuai.com/@esbuild/freebsd-arm64/download/@esbuild/freebsd-arm64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-x64@0.27.7':
+    resolution: {integrity: sha1-kiS45P6pJM4hlOPvw+muv4IhktY=, tarball: http://r.npm.sankuai.com/@esbuild/freebsd-x64/download/@esbuild/freebsd-x64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@esbuild/linux-arm64@0.27.7':
+    resolution: {integrity: sha1-T10cJ1J9gXs1aEriFBnlfCvaCWY=, tarball: http://r.npm.sankuai.com/@esbuild/linux-arm64/download/@esbuild/linux-arm64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@esbuild/linux-arm@0.27.7':
+    resolution: {integrity: sha1-uenQcMjBwESc8Ssg6sN9cKRZWSE=, tarball: http://r.npm.sankuai.com/@esbuild/linux-arm/download/@esbuild/linux-arm-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [linux]
+
+  '@esbuild/linux-ia32@0.27.7':
+    resolution: {integrity: sha1-P4D7aWqpYFGpQEfzXIWwiyHDb54=, tarball: http://r.npm.sankuai.com/@esbuild/linux-ia32/download/@esbuild/linux-ia32-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [linux]
+
+  '@esbuild/linux-loong64@0.27.7':
+    resolution: {integrity: sha1-m+HywoIQsT67QVYiG7o1b+FnUgU=, tarball: http://r.npm.sankuai.com/@esbuild/linux-loong64/download/@esbuild/linux-loong64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [loong64]
+    os: [linux]
+
+  '@esbuild/linux-mips64el@0.27.7':
+    resolution: {integrity: sha1-SrXuZ6Pfy8tej9eIPa5uc1sRY7g=, tarball: http://r.npm.sankuai.com/@esbuild/linux-mips64el/download/@esbuild/linux-mips64el-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [mips64el]
+    os: [linux]
+
+  '@esbuild/linux-ppc64@0.27.7':
+    resolution: {integrity: sha1-2seMaJ9kmUWcQyHlwVAywSMH5+o=, tarball: http://r.npm.sankuai.com/@esbuild/linux-ppc64/download/@esbuild/linux-ppc64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@esbuild/linux-riscv64@0.27.7':
+    resolution: {integrity: sha1-BQ99OzVcOpgwjpNbxNYyXakbACc=, tarball: http://r.npm.sankuai.com/@esbuild/linux-riscv64/download/@esbuild/linux-riscv64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@esbuild/linux-s390x@0.27.7':
+    resolution: {integrity: sha1-1h9xXOYdQ/5YRK0Nj0Y/iMvk/vY=, tarball: http://r.npm.sankuai.com/@esbuild/linux-s390x/download/@esbuild/linux-s390x-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@esbuild/linux-x64@0.27.7':
+    resolution: {integrity: sha1-yo4apHj8ggkle/Osj3nE3CmC8yo=, tarball: http://r.npm.sankuai.com/@esbuild/linux-x64/download/@esbuild/linux-x64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [linux]
+
+  '@esbuild/netbsd-arm64@0.27.7':
+    resolution: {integrity: sha1-FlDywblI3us++Ujy/DBhRyPAlpA=, tarball: http://r.npm.sankuai.com/@esbuild/netbsd-arm64/download/@esbuild/netbsd-arm64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [netbsd]
+
+  '@esbuild/netbsd-x64@0.27.7':
+    resolution: {integrity: sha1-ZXcqs0LEszGb8HBaIRBQqsG24yA=, tarball: http://r.npm.sankuai.com/@esbuild/netbsd-x64/download/@esbuild/netbsd-x64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [netbsd]
+
+  '@esbuild/openbsd-arm64@0.27.7':
+    resolution: {integrity: sha1-N+18+mZUnXlVhS/ON9DD3k5xXqE=, tarball: http://r.npm.sankuai.com/@esbuild/openbsd-arm64/download/@esbuild/openbsd-arm64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [openbsd]
+
+  '@esbuild/openbsd-x64@0.27.7':
+    resolution: {integrity: sha1-Ab89OFhV71DLM9t8S1L5V8NM0Xk=, tarball: http://r.npm.sankuai.com/@esbuild/openbsd-x64/download/@esbuild/openbsd-x64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [openbsd]
+
+  '@esbuild/openharmony-arm64@0.27.7':
+    resolution: {integrity: sha1-bB+Us0CGWZqr2k6sj2OClLmHdBA=, tarball: http://r.npm.sankuai.com/@esbuild/openharmony-arm64/download/@esbuild/openharmony-arm64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [openharmony]
+
+  '@esbuild/sunos-x64@0.27.7':
+    resolution: {integrity: sha1-Sw3ReuCmlB0tD9NakGOSUXBxqQ0=, tarball: http://r.npm.sankuai.com/@esbuild/sunos-x64/download/@esbuild/sunos-x64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [sunos]
+
+  '@esbuild/win32-arm64@0.27.7':
+    resolution: {integrity: sha1-NBk6tVZdb/aMqSisBL51ECzLLnc=, tarball: http://r.npm.sankuai.com/@esbuild/win32-arm64/download/@esbuild/win32-arm64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@esbuild/win32-ia32@0.27.7':
+    resolution: {integrity: sha1-62fw5EglFdjBiU7eYxwyek2p/E0=, tarball: http://r.npm.sankuai.com/@esbuild/win32-ia32/download/@esbuild/win32-ia32-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [win32]
+
+  '@esbuild/win32-x64@0.27.7':
+    resolution: {integrity: sha1-j+MLMIi4m0hzw6bMh1l645IMCos=, tarball: http://r.npm.sankuai.com/@esbuild/win32-x64/download/@esbuild/win32-x64-0.27.7.tgz}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [win32]
+
+  '@jridgewell/gen-mapping@0.3.13':
+    resolution: {integrity: sha1-Y0Khn0Q0dRjJPkOxrGnes8Rlah8=, tarball: http://r.npm.sankuai.com/@jridgewell/gen-mapping/download/@jridgewell/gen-mapping-0.3.13.tgz}
+
+  '@jridgewell/remapping@2.3.5':
+    resolution: {integrity: sha1-N1xHbRlylHhRuh4Vro8SMEdEWqE=, tarball: http://r.npm.sankuai.com/@jridgewell/remapping/download/@jridgewell/remapping-2.3.5.tgz}
+
+  '@jridgewell/resolve-uri@3.1.2':
+    resolution: {integrity: sha1-eg7mAfYPmaIMfHxf8MgDiMEYm9Y=, tarball: http://r.npm.sankuai.com/@jridgewell/resolve-uri/download/@jridgewell/resolve-uri-3.1.2.tgz}
+    engines: {node: '>=6.0.0'}
+
+  '@jridgewell/sourcemap-codec@1.5.5':
+    resolution: {integrity: sha1-aRKwDSxjHA0Vzhp6tXzWV/Ko+Lo=, tarball: http://r.npm.sankuai.com/@jridgewell/sourcemap-codec/download/@jridgewell/sourcemap-codec-1.5.5.tgz}
+
+  '@jridgewell/trace-mapping@0.3.31':
+    resolution: {integrity: sha1-2xXWeByTHzolGj2sOVAcmKYIL9A=, tarball: http://r.npm.sankuai.com/@jridgewell/trace-mapping/download/@jridgewell/trace-mapping-0.3.31.tgz}
+
+  '@juggle/resize-observer@3.4.0':
+    resolution: {integrity: sha1-CNbF4gz35MwC/RgcSwwiXNMdu2A=, tarball: http://r.npm.sankuai.com/@juggle/resize-observer/download/@juggle/resize-observer-3.4.0.tgz}
+
+  '@rolldown/pluginutils@1.0.0-rc.2':
+    resolution: {integrity: sha1-EDJOdMszlst7YWBC6n6eaqfY1Fg=, tarball: http://r.npm.sankuai.com/@rolldown/pluginutils/download/@rolldown/pluginutils-1.0.0-rc.2.tgz}
+
+  '@rollup/rollup-android-arm-eabi@4.60.0':
+    resolution: {integrity: sha1-fhWN38FveNqZwNXMuubK5APvMoQ=, tarball: http://r.npm.sankuai.com/@rollup/rollup-android-arm-eabi/download/@rollup/rollup-android-arm-eabi-4.60.0.tgz}
+    cpu: [arm]
+    os: [android]
+
+  '@rollup/rollup-android-arm64@4.60.0':
+    resolution: {integrity: sha1-SfSuDiK2+f+804GLmgdY+i0Qsc0=, tarball: http://r.npm.sankuai.com/@rollup/rollup-android-arm64/download/@rollup/rollup-android-arm64-4.60.0.tgz}
+    cpu: [arm64]
+    os: [android]
+
+  '@rollup/rollup-darwin-arm64@4.60.0':
+    resolution: {integrity: sha1-uyACaQaaz1wcTXmtFCUk936LgjY=, tarball: http://r.npm.sankuai.com/@rollup/rollup-darwin-arm64/download/@rollup/rollup-darwin-arm64-4.60.0.tgz}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@rollup/rollup-darwin-x64@4.60.0':
+    resolution: {integrity: sha1-G/epKyfr3V4NHUhQPHgRFgdzvho=, tarball: http://r.npm.sankuai.com/@rollup/rollup-darwin-x64/download/@rollup/rollup-darwin-x64-4.60.0.tgz}
+    cpu: [x64]
+    os: [darwin]
+
+  '@rollup/rollup-freebsd-arm64@4.60.0':
+    resolution: {integrity: sha1-XM9Te5nFF1AIREcCGTrQscNvfxY=, tarball: http://r.npm.sankuai.com/@rollup/rollup-freebsd-arm64/download/@rollup/rollup-freebsd-arm64-4.60.0.tgz}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@rollup/rollup-freebsd-x64@4.60.0':
+    resolution: {integrity: sha1-EZbs179OEoYk74PNH514URRHSnc=, tarball: http://r.npm.sankuai.com/@rollup/rollup-freebsd-x64/download/@rollup/rollup-freebsd-x64-4.60.0.tgz}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@rollup/rollup-linux-arm-gnueabihf@4.60.0':
+    resolution: {integrity: sha1-zBR2M6SvIp/ug6c3vyM0+6w9wo4=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-arm-gnueabihf/download/@rollup/rollup-linux-arm-gnueabihf-4.60.0.tgz}
+    cpu: [arm]
+    os: [linux]
+    libc: [glibc]
+
+  '@rollup/rollup-linux-arm-musleabihf@4.60.0':
+    resolution: {integrity: sha1-NVn58GAVPqVFlKQsO4eil77cwm4=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-arm-musleabihf/download/@rollup/rollup-linux-arm-musleabihf-4.60.0.tgz}
+    cpu: [arm]
+    os: [linux]
+    libc: [musl]
+
+  '@rollup/rollup-linux-arm64-gnu@4.60.0':
+    resolution: {integrity: sha1-6R+IexVBI0hc/EtZvv4ggPzY8t8=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-arm64-gnu/download/@rollup/rollup-linux-arm64-gnu-4.60.0.tgz}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rollup/rollup-linux-arm64-musl@4.60.0':
+    resolution: {integrity: sha1-ZgdS8EDfm6RKJHZd9piSiRfAvyE=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-arm64-musl/download/@rollup/rollup-linux-arm64-musl-4.60.0.tgz}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@rollup/rollup-linux-loong64-gnu@4.60.0':
+    resolution: {integrity: sha1-yw6Tml+keczvJk8/RbMZcWlfhpw=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-loong64-gnu/download/@rollup/rollup-linux-loong64-gnu-4.60.0.tgz}
+    cpu: [loong64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rollup/rollup-linux-loong64-musl@4.60.0':
+    resolution: {integrity: sha1-QvhvvILNGoG+LTRkdt0yMc9e5EI=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-loong64-musl/download/@rollup/rollup-linux-loong64-musl-4.60.0.tgz}
+    cpu: [loong64]
+    os: [linux]
+    libc: [musl]
+
+  '@rollup/rollup-linux-ppc64-gnu@4.60.0':
+    resolution: {integrity: sha1-OXdqZHp4ncleoEknfF748Jjfd/k=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-ppc64-gnu/download/@rollup/rollup-linux-ppc64-gnu-4.60.0.tgz}
+    cpu: [ppc64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rollup/rollup-linux-ppc64-musl@4.60.0':
+    resolution: {integrity: sha1-Rm8gApqOizuylUx93ryVhkIMrCw=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-ppc64-musl/download/@rollup/rollup-linux-ppc64-musl-4.60.0.tgz}
+    cpu: [ppc64]
+    os: [linux]
+    libc: [musl]
+
+  '@rollup/rollup-linux-riscv64-gnu@4.60.0':
+    resolution: {integrity: sha1-z/mHfHjxLnqmJG9pAq2RPpntsrc=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-riscv64-gnu/download/@rollup/rollup-linux-riscv64-gnu-4.60.0.tgz}
+    cpu: [riscv64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rollup/rollup-linux-riscv64-musl@4.60.0':
+    resolution: {integrity: sha1-mnYvuZtagqkhAX9WSRt+iSufsX0=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-riscv64-musl/download/@rollup/rollup-linux-riscv64-musl-4.60.0.tgz}
+    cpu: [riscv64]
+    os: [linux]
+    libc: [musl]
+
+  '@rollup/rollup-linux-s390x-gnu@4.60.0':
+    resolution: {integrity: sha1-nSWtisfatoGTW694rF6pLRRinN8=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-s390x-gnu/download/@rollup/rollup-linux-s390x-gnu-4.60.0.tgz}
+    cpu: [s390x]
+    os: [linux]
+    libc: [glibc]
+
+  '@rollup/rollup-linux-x64-gnu@4.60.0':
+    resolution: {integrity: sha1-XlE54RgZ+jigUjaNp5Qiy0r89GY=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-x64-gnu/download/@rollup/rollup-linux-x64-gnu-4.60.0.tgz}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rollup/rollup-linux-x64-musl@4.60.0':
+    resolution: {integrity: sha1-tiEdRuEbH5RfVQTMeU/Og5Mx7Qg=, tarball: http://r.npm.sankuai.com/@rollup/rollup-linux-x64-musl/download/@rollup/rollup-linux-x64-musl-4.60.0.tgz}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@rollup/rollup-openbsd-x64@4.60.0':
+    resolution: {integrity: sha1-5uCe66pwErucczG0N6npkr2UyjU=, tarball: http://r.npm.sankuai.com/@rollup/rollup-openbsd-x64/download/@rollup/rollup-openbsd-x64-4.60.0.tgz}
+    cpu: [x64]
+    os: [openbsd]
+
+  '@rollup/rollup-openharmony-arm64@4.60.0':
+    resolution: {integrity: sha1-99ma6FcDJJjlel5yWftxAP0kqH4=, tarball: http://r.npm.sankuai.com/@rollup/rollup-openharmony-arm64/download/@rollup/rollup-openharmony-arm64-4.60.0.tgz}
+    cpu: [arm64]
+    os: [openharmony]
+
+  '@rollup/rollup-win32-arm64-msvc@4.60.0':
+    resolution: {integrity: sha1-QeOS9dnzvxJT/a8vbW9rG/xFKFY=, tarball: http://r.npm.sankuai.com/@rollup/rollup-win32-arm64-msvc/download/@rollup/rollup-win32-arm64-msvc-4.60.0.tgz}
+    cpu: [arm64]
+    os: [win32]
+
+  '@rollup/rollup-win32-ia32-msvc@4.60.0':
+    resolution: {integrity: sha1-9BsEkL4OXTz0WbTcB2oZK1Mq3qk=, tarball: http://r.npm.sankuai.com/@rollup/rollup-win32-ia32-msvc/download/@rollup/rollup-win32-ia32-msvc-4.60.0.tgz}
+    cpu: [ia32]
+    os: [win32]
+
+  '@rollup/rollup-win32-x64-gnu@4.60.0':
+    resolution: {integrity: sha1-D8+fH8t1DwMXsTqsOzIxaH5jl6U=, tarball: http://r.npm.sankuai.com/@rollup/rollup-win32-x64-gnu/download/@rollup/rollup-win32-x64-gnu-4.60.0.tgz}
+    cpu: [x64]
+    os: [win32]
+
+  '@rollup/rollup-win32-x64-msvc@4.60.0':
+    resolution: {integrity: sha1-Ov2zBAX21CSN9ecuHKhsXqtV+rg=, tarball: http://r.npm.sankuai.com/@rollup/rollup-win32-x64-msvc/download/@rollup/rollup-win32-x64-msvc-4.60.0.tgz}
+    cpu: [x64]
+    os: [win32]
+
+  '@tailwindcss/node@4.2.2':
+    resolution: {integrity: sha1-hA6QQibcGzeWCd6KcjI/whFWiZM=, tarball: http://r.npm.sankuai.com/@tailwindcss/node/download/@tailwindcss/node-4.2.2.tgz}
+
+  '@tailwindcss/oxide-android-arm64@4.2.2':
+    resolution: {integrity: sha1-YdnsXBg5T+epcumeGeYGXoM9p3w=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-android-arm64/download/@tailwindcss/oxide-android-arm64-4.2.2.tgz}
+    engines: {node: '>= 20'}
+    cpu: [arm64]
+    os: [android]
+
+  '@tailwindcss/oxide-darwin-arm64@4.2.2':
+    resolution: {integrity: sha1-mtexQXidriNchdL3h0WSv4afY24=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-darwin-arm64/download/@tailwindcss/oxide-darwin-arm64-4.2.2.tgz}
+    engines: {node: '>= 20'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@tailwindcss/oxide-darwin-x64@4.2.2':
+    resolution: {integrity: sha1-pYmfH75VxO3cvIcbg11Rg7o0ZYw=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-darwin-x64/download/@tailwindcss/oxide-darwin-x64-4.2.2.tgz}
+    engines: {node: '>= 20'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@tailwindcss/oxide-freebsd-x64@4.2.2':
+    resolution: {integrity: sha1-dhhbsb6pr5FaW59GUyOGFkZYfiE=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-freebsd-x64/download/@tailwindcss/oxide-freebsd-x64-4.2.2.tgz}
+    engines: {node: '>= 20'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@tailwindcss/oxide-linux-arm-gnueabihf@4.2.2':
+    resolution: {integrity: sha1-dMF8abIBX3YA1WarCZCqrIcBEo4=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-linux-arm-gnueabihf/download/@tailwindcss/oxide-linux-arm-gnueabihf-4.2.2.tgz}
+    engines: {node: '>= 20'}
+    cpu: [arm]
+    os: [linux]
+
+  '@tailwindcss/oxide-linux-arm64-gnu@4.2.2':
+    resolution: {integrity: sha1-OKhG2dV5W8O1eVEXIETY27PHmqY=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-linux-arm64-gnu/download/@tailwindcss/oxide-linux-arm64-gnu-4.2.2.tgz}
+    engines: {node: '>= 20'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@tailwindcss/oxide-linux-arm64-musl@4.2.2':
+    resolution: {integrity: sha1-9MxBKcF9PyvLAe/vTXovOB5eP1M=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-linux-arm64-musl/download/@tailwindcss/oxide-linux-arm64-musl-4.2.2.tgz}
+    engines: {node: '>= 20'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@tailwindcss/oxide-linux-x64-gnu@4.2.2':
+    resolution: {integrity: sha1-fEoAsIKeEnNr1y7HThwIIFRIzC4=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-linux-x64-gnu/download/@tailwindcss/oxide-linux-x64-gnu-4.2.2.tgz}
+    engines: {node: '>= 20'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@tailwindcss/oxide-linux-x64-musl@4.2.2':
+    resolution: {integrity: sha1-cRdW17vpfiIfwEG2Ok84W4W6QyE=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-linux-x64-musl/download/@tailwindcss/oxide-linux-x64-musl-4.2.2.tgz}
+    engines: {node: '>= 20'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@tailwindcss/oxide-wasm32-wasi@4.2.2':
+    resolution: {integrity: sha1-7W0oVnt6u4UF+CRFfCNtLNB+4Y4=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-wasm32-wasi/download/@tailwindcss/oxide-wasm32-wasi-4.2.2.tgz}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
+    bundledDependencies:
+      - '@napi-rs/wasm-runtime'
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+      - '@tybys/wasm-util'
+      - '@emnapi/wasi-threads'
+      - tslib
+
+  '@tailwindcss/oxide-win32-arm64-msvc@4.2.2':
+    resolution: {integrity: sha1-8tA2DlvAb+IBU3+wgZPTeA590k8=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-win32-arm64-msvc/download/@tailwindcss/oxide-win32-arm64-msvc-4.2.2.tgz}
+    engines: {node: '>= 20'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@tailwindcss/oxide-win32-x64-msvc@4.2.2':
+    resolution: {integrity: sha1-EPxxtziD+cOZm1uMM4/ZakUkDcs=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide-win32-x64-msvc/download/@tailwindcss/oxide-win32-x64-msvc-4.2.2.tgz}
+    engines: {node: '>= 20'}
+    cpu: [x64]
+    os: [win32]
+
+  '@tailwindcss/oxide@4.2.2':
+    resolution: {integrity: sha1-xlNMtLImUN9gWlglgjVSOmq9feg=, tarball: http://r.npm.sankuai.com/@tailwindcss/oxide/download/@tailwindcss/oxide-4.2.2.tgz}
+    engines: {node: '>= 20'}
+
+  '@tailwindcss/vite@4.2.2':
+    resolution: {integrity: sha1-SSQKQWkcNLeO1KgNB6OTAfGlEp8=, tarball: http://r.npm.sankuai.com/@tailwindcss/vite/download/@tailwindcss/vite-4.2.2.tgz}
+    peerDependencies:
+      vite: ^5.2.0 || ^6 || ^7 || ^8
+
+  '@types/estree@1.0.8':
+    resolution: {integrity: sha1-lYuRyZGxhnztMYvt6g4hXuBQcm4=, tarball: http://r.npm.sankuai.com/@types/estree/download/@types/estree-1.0.8.tgz}
+
+  '@types/lodash-es@4.17.12':
+    resolution: {integrity: sha1-ZfbR5fgFOap8+/yWLeXe8M9PNBs=, tarball: http://r.npm.sankuai.com/@types/lodash-es/download/@types/lodash-es-4.17.12.tgz}
+
+  '@types/lodash@4.17.24':
+    resolution: {integrity: sha1-SuM0/GLA6RXKjtjjXcxtTuspIV8=, tarball: http://r.npm.sankuai.com/@types/lodash/download/@types/lodash-4.17.24.tgz}
+
+  '@types/node@24.12.2':
+    resolution: {integrity: sha1-NTyxYdvxeF6iXogpun7FdMXGKaw=, tarball: http://r.npm.sankuai.com/@types/node/download/@types/node-24.12.2.tgz}
+
+  '@vitejs/plugin-vue@6.0.5':
+    resolution: {integrity: sha1-IOu0bE2gaXU9nPsTCcQzQhPMP3s=, tarball: http://r.npm.sankuai.com/@vitejs/plugin-vue/download/@vitejs/plugin-vue-6.0.5.tgz}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    peerDependencies:
+      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+      vue: ^3.2.25
+
+  '@volar/language-core@2.4.28':
+    resolution: {integrity: sha1-wh82WpHB3/6L1yZP1JF3DI10/vM=, tarball: http://r.npm.sankuai.com/@volar/language-core/download/@volar/language-core-2.4.28.tgz}
+
+  '@volar/source-map@2.4.28':
+    resolution: {integrity: sha1-tAJU6MlhmeXx4Hlnd8WTxhetJw4=, tarball: http://r.npm.sankuai.com/@volar/source-map/download/@volar/source-map-2.4.28.tgz}
+
+  '@volar/typescript@2.4.28':
+    resolution: {integrity: sha1-g/hjVuhOsQG4CBpEwQTy8s7YQR8=, tarball: http://r.npm.sankuai.com/@volar/typescript/download/@volar/typescript-2.4.28.tgz}
+
+  '@vue/compiler-core@3.5.32':
+    resolution: {integrity: sha1-URXKCZsE/t2PYj+TtSLZFMN2y+s=, tarball: http://r.npm.sankuai.com/@vue/compiler-core/download/@vue/compiler-core-3.5.32.tgz}
+
+  '@vue/compiler-dom@3.5.32':
+    resolution: {integrity: sha1-YGnq4vDRo4Jj6URfPB2hoG5fZTQ=, tarball: http://r.npm.sankuai.com/@vue/compiler-dom/download/@vue/compiler-dom-3.5.32.tgz}
+
+  '@vue/compiler-sfc@3.5.32':
+    resolution: {integrity: sha1-H0vvbU+/wMuCeKCNCMBaOv3b0sg=, tarball: http://r.npm.sankuai.com/@vue/compiler-sfc/download/@vue/compiler-sfc-3.5.32.tgz}
+
+  '@vue/compiler-ssr@3.5.32':
+    resolution: {integrity: sha1-VjKgk0y1jPiNz/FATs8GtaFvaBY=, tarball: http://r.npm.sankuai.com/@vue/compiler-ssr/download/@vue/compiler-ssr-3.5.32.tgz}
+
+  '@vue/devtools-api@7.7.9':
+    resolution: {integrity: sha1-mZ2+pQ2msAz1mhM28R/cK0PZ4GM=, tarball: http://r.npm.sankuai.com/@vue/devtools-api/download/@vue/devtools-api-7.7.9.tgz}
+
+  '@vue/devtools-kit@7.7.9':
+    resolution: {integrity: sha1-vCGKgVYW6Jh996s+EPwfs7hwbFg=, tarball: http://r.npm.sankuai.com/@vue/devtools-kit/download/@vue/devtools-kit-7.7.9.tgz}
+
+  '@vue/devtools-shared@7.7.9':
+    resolution: {integrity: sha1-+kwJa3RJJwgafdpfzwXzSxrmyhQ=, tarball: http://r.npm.sankuai.com/@vue/devtools-shared/download/@vue/devtools-shared-7.7.9.tgz}
+
+  '@vue/language-core@3.2.6':
+    resolution: {integrity: sha1-r+Sf5fIAnrCtr4CvcrAeCd4roPw=, tarball: http://r.npm.sankuai.com/@vue/language-core/download/@vue/language-core-3.2.6.tgz}
+
+  '@vue/reactivity@3.5.32':
+    resolution: {integrity: sha1-pMuXMJXq3hrm2JmuYLqQGdK9IfU=, tarball: http://r.npm.sankuai.com/@vue/reactivity/download/@vue/reactivity-3.5.32.tgz}
+
+  '@vue/runtime-core@3.5.32':
+    resolution: {integrity: sha1-eri8gyEIhqpNtp5dcvMRiGKP6dQ=, tarball: http://r.npm.sankuai.com/@vue/runtime-core/download/@vue/runtime-core-3.5.32.tgz}
+
+  '@vue/runtime-dom@3.5.32':
+    resolution: {integrity: sha1-/ngVsl5V3zTGroKg0GvnnRNC188=, tarball: http://r.npm.sankuai.com/@vue/runtime-dom/download/@vue/runtime-dom-3.5.32.tgz}
+
+  '@vue/server-renderer@3.5.32':
+    resolution: {integrity: sha1-dFefZdJx4he97w32JHSzyKjbpVs=, tarball: http://r.npm.sankuai.com/@vue/server-renderer/download/@vue/server-renderer-3.5.32.tgz}
+    peerDependencies:
+      vue: 3.5.32
+
+  '@vue/shared@3.5.32':
+    resolution: {integrity: sha1-3Yug1wm/P3WMMkqByIl7rV4VQM8=, tarball: http://r.npm.sankuai.com/@vue/shared/download/@vue/shared-3.5.32.tgz}
+
+  '@vue/tsconfig@0.8.1':
+    resolution: {integrity: sha1-RzIlH6WJRQJEJDhc874LFwj61f4=, tarball: http://r.npm.sankuai.com/@vue/tsconfig/download/@vue/tsconfig-0.8.1.tgz}
+    peerDependencies:
+      typescript: 5.x
+      vue: ^3.4.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+      vue:
+        optional: true
+
+  alien-signals@3.1.2:
+    resolution: {integrity: sha1-JuYj4+2B5AHfGnxQP3JuIoik+gI=, tarball: http://r.npm.sankuai.com/alien-signals/download/alien-signals-3.1.2.tgz}
+
+  async-validator@4.2.5:
+    resolution: {integrity: sha1-yW6jMypSFpnQr6rO7VEKVGVsYzk=, tarball: http://r.npm.sankuai.com/async-validator/download/async-validator-4.2.5.tgz}
+
+  autoprefixer@10.4.27:
+    resolution: {integrity: sha1-UeowGlw8X4ZC+OVkdZxPVzvkhvI=, tarball: http://r.npm.sankuai.com/autoprefixer/download/autoprefixer-10.4.27.tgz}
+    engines: {node: ^10 || ^12 || >=14}
+    hasBin: true
+    peerDependencies:
+      postcss: ^8.1.0
+
+  baseline-browser-mapping@2.10.16:
+    resolution: {integrity: sha1-74DPIYpT8WVomm4y///cofNdl5w=, tarball: http://r.npm.sankuai.com/baseline-browser-mapping/download/baseline-browser-mapping-2.10.16.tgz}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
+  birpc@2.9.0:
+    resolution: {integrity: sha1-tZVQiX5M2WoiPipsFHW1ciNu0UU=, tarball: http://r.npm.sankuai.com/birpc/download/birpc-2.9.0.tgz}
+
+  browserslist@4.28.1:
+    resolution: {integrity: sha1-f1NFlGKMU8YxAQeeJ+QN5JBFapU=, tarball: http://r.npm.sankuai.com/browserslist/download/browserslist-4.28.1.tgz}
+    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
+    hasBin: true
+
+  caniuse-lite@1.0.30001786:
+    resolution: {integrity: sha1-WGEg/HPzx+6CFS92rNDDfgSs77s=, tarball: http://r.npm.sankuai.com/caniuse-lite/download/caniuse-lite-1.0.30001786.tgz}
+
+  copy-anything@4.0.5:
+    resolution: {integrity: sha1-Fsq6/R6kuzJ6VAt1DytN9SKCWuo=, tarball: http://r.npm.sankuai.com/copy-anything/download/copy-anything-4.0.5.tgz}
+    engines: {node: '>=18'}
+
+  css-render@0.15.14:
+    resolution: {integrity: sha1-wj2Mi5wLRM0gtCb16d5+97reabg=, tarball: http://r.npm.sankuai.com/css-render/download/css-render-0.15.14.tgz}
+
+  csstype@3.0.11:
+    resolution: {integrity: sha1-1mcAxerPrBlA3rTj7lZCeS2FzTM=, tarball: http://r.npm.sankuai.com/csstype/download/csstype-3.0.11.tgz}
+
+  csstype@3.2.3:
+    resolution: {integrity: sha1-7EjA8+mT5QZIyG2lWeJhCZXPmJo=, tarball: http://r.npm.sankuai.com/csstype/download/csstype-3.2.3.tgz}
+
+  date-fns-tz@3.2.0:
+    resolution: {integrity: sha1-ZH3FbTisM6Pje2Xp1cTNpa9eWOY=, tarball: http://r.npm.sankuai.com/date-fns-tz/download/date-fns-tz-3.2.0.tgz}
+    peerDependencies:
+      date-fns: ^3.0.0 || ^4.0.0
+
+  date-fns@4.1.0:
+    resolution: {integrity: sha1-ZLPYP/9aqAQ49bGmM8LoO4ocLRQ=, tarball: http://r.npm.sankuai.com/date-fns/download/date-fns-4.1.0.tgz}
+
+  detect-libc@2.1.2:
+    resolution: {integrity: sha1-aJxdzcGQDvVYOky59te0c3QgdK0=, tarball: http://r.npm.sankuai.com/detect-libc/download/detect-libc-2.1.2.tgz}
+    engines: {node: '>=8'}
+
+  echarts@6.0.0:
+    resolution: {integrity: sha1-KTWqd1HCgtGru/fXGdOXGZoVuec=, tarball: http://r.npm.sankuai.com/echarts/download/echarts-6.0.0.tgz}
+
+  electron-to-chromium@1.5.334:
+    resolution: {integrity: sha1-Hj/djQFIUhBOuOYy52D7Nk233Q4=, tarball: http://r.npm.sankuai.com/electron-to-chromium/download/electron-to-chromium-1.5.334.tgz}
+
+  enhanced-resolve@5.20.1:
+    resolution: {integrity: sha1-7us5Zr6mLDSMQKDMnnkS4lV9C+A=, tarball: http://r.npm.sankuai.com/enhanced-resolve/download/enhanced-resolve-5.20.1.tgz}
+    engines: {node: '>=10.13.0'}
+
+  entities@7.0.1:
+    resolution: {integrity: sha1-JuioiInbY0F9y5oeeaPxvJK1l2s=, tarball: http://r.npm.sankuai.com/entities/download/entities-7.0.1.tgz}
+    engines: {node: '>=0.12'}
+
+  esbuild@0.27.7:
+    resolution: {integrity: sha1-vK3OIrLz/XbyV+OmT4OmSYb+oR8=, tarball: http://r.npm.sankuai.com/esbuild/download/esbuild-0.27.7.tgz}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  escalade@3.2.0:
+    resolution: {integrity: sha1-ARo/aYVroYnf+n3I/M6Z0qh5A+U=, tarball: http://r.npm.sankuai.com/escalade/download/escalade-3.2.0.tgz}
+    engines: {node: '>=6'}
+
+  estree-walker@2.0.2:
+    resolution: {integrity: sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=, tarball: http://r.npm.sankuai.com/estree-walker/download/estree-walker-2.0.2.tgz}
+
+  evtd@0.2.4:
+    resolution: {integrity: sha1-Cqw5ukTWkm5maJSKwnYY4HlbnQc=, tarball: http://r.npm.sankuai.com/evtd/download/evtd-0.2.4.tgz}
+
+  fdir@6.5.0:
+    resolution: {integrity: sha1-7Sq5Z6MxreYvGNB32uGSaE1Q01A=, tarball: http://r.npm.sankuai.com/fdir/download/fdir-6.5.0.tgz}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      picomatch: ^3 || ^4
+    peerDependenciesMeta:
+      picomatch:
+        optional: true
+
+  fraction.js@5.3.4:
+    resolution: {integrity: sha1-jA/MapkIJi307Rl0J73u9WPgaZo=, tarball: http://r.npm.sankuai.com/fraction.js/download/fraction.js-5.3.4.tgz}
+
+  fsevents@2.3.3:
+    resolution: {integrity: sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=, tarball: http://r.npm.sankuai.com/fsevents/download/fsevents-2.3.3.tgz}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+
+  graceful-fs@4.2.11:
+    resolution: {integrity: sha1-QYPk6L8Iu24Fu7L30uDI9xLKQOM=, tarball: http://r.npm.sankuai.com/graceful-fs/download/graceful-fs-4.2.11.tgz}
+
+  highlight.js@11.11.1:
+    resolution: {integrity: sha1-/KBvoOWu7PbE1DcjkTX6vBUhNYU=, tarball: http://r.npm.sankuai.com/highlight.js/download/highlight.js-11.11.1.tgz}
+    engines: {node: '>=12.0.0'}
+
+  hookable@5.5.3:
+    resolution: {integrity: sha1-bPw1iYSh75keJRjLntSneLvTIV0=, tarball: http://r.npm.sankuai.com/hookable/download/hookable-5.5.3.tgz}
+
+  is-what@5.5.0:
+    resolution: {integrity: sha1-owMYFXV8/h8D/tmQv2NVotP2KMQ=, tarball: http://r.npm.sankuai.com/is-what/download/is-what-5.5.0.tgz}
+    engines: {node: '>=18'}
+
+  jiti@2.6.1:
+    resolution: {integrity: sha1-F47y/JoaWUJIwgYnzYIBh6TXjZI=, tarball: http://r.npm.sankuai.com/jiti/download/jiti-2.6.1.tgz}
+    hasBin: true
+
+  lightningcss-android-arm64@1.32.0:
+    resolution: {integrity: sha1-8DOIURbf79nG9UeHUj41FLYeGWg=, tarball: http://r.npm.sankuai.com/lightningcss-android-arm64/download/lightningcss-android-arm64-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [android]
+
+  lightningcss-darwin-arm64@1.32.0:
+    resolution: {integrity: sha1-ULcYcbAcgZlYS2SeKSVH+up6+bU=, tarball: http://r.npm.sankuai.com/lightningcss-darwin-arm64/download/lightningcss-darwin-arm64-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [darwin]
+
+  lightningcss-darwin-x64@1.32.0:
+    resolution: {integrity: sha1-NfPpczLRMLnKGB4RtWje1q68bV4=, tarball: http://r.npm.sankuai.com/lightningcss-darwin-x64/download/lightningcss-darwin-x64-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  lightningcss-freebsd-x64@1.32.0:
+    resolution: {integrity: sha1-l3enZHK2Ttb/lDQq1kx7r9eUpXU=, tarball: http://r.npm.sankuai.com/lightningcss-freebsd-x64/download/lightningcss-freebsd-x64-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [freebsd]
+
+  lightningcss-linux-arm-gnueabihf@1.32.0:
+    resolution: {integrity: sha1-E65lLhq3O5E117faFy9mbEEK1T0=, tarball: http://r.npm.sankuai.com/lightningcss-linux-arm-gnueabihf/download/lightningcss-linux-arm-gnueabihf-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm]
+    os: [linux]
+
+  lightningcss-linux-arm64-gnu@1.32.0:
+    resolution: {integrity: sha1-QXhYeVqUWS9oASOhsfnaig4e8zU=, tarball: http://r.npm.sankuai.com/lightningcss-linux-arm64-gnu/download/lightningcss-linux-arm64-gnu-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  lightningcss-linux-arm64-musl@1.32.0:
+    resolution: {integrity: sha1-a+NmkugQtxgECAL9gJYjz/5zITM=, tarball: http://r.npm.sankuai.com/lightningcss-linux-arm64-musl/download/lightningcss-linux-arm64-musl-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  lightningcss-linux-x64-gnu@1.32.0:
+    resolution: {integrity: sha1-C3gDr06yHP043Tn+Kru1PH3QkfY=, tarball: http://r.npm.sankuai.com/lightningcss-linux-x64-gnu/download/lightningcss-linux-x64-gnu-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  lightningcss-linux-x64-musl@1.32.0:
+    resolution: {integrity: sha1-iNyLqGXd3bGsXvBLDxYYBEGMFjs=, tarball: http://r.npm.sankuai.com/lightningcss-linux-x64-musl/download/lightningcss-linux-x64-musl-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  lightningcss-win32-arm64-msvc@1.32.0:
+    resolution: {integrity: sha1-TzC6P6XpJfW3n5RejMDRdsOxqzg=, tarball: http://r.npm.sankuai.com/lightningcss-win32-arm64-msvc/download/lightningcss-win32-arm64-msvc-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [win32]
+
+  lightningcss-win32-x64-msvc@1.32.0:
+    resolution: {integrity: sha1-FBqlYFZFBkkokCu0rwRfp9n0Igo=, tarball: http://r.npm.sankuai.com/lightningcss-win32-x64-msvc/download/lightningcss-win32-x64-msvc-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [win32]
+
+  lightningcss@1.32.0:
+    resolution: {integrity: sha1-uFqulkhtyxv0mnyFcSISc/Tx5Kk=, tarball: http://r.npm.sankuai.com/lightningcss/download/lightningcss-1.32.0.tgz}
+    engines: {node: '>= 12.0.0'}
+
+  lodash-es@4.18.1:
+    resolution: {integrity: sha1-uWLuuA2dmDqQC/NClh+3QYyhCx0=, tarball: http://r.npm.sankuai.com/lodash-es/download/lodash-es-4.18.1.tgz}
+
+  lodash@4.18.1:
+    resolution: {integrity: sha1-/ytmwfYybVlRPeJAe/iBQ5gSdxw=, tarball: http://r.npm.sankuai.com/lodash/download/lodash-4.18.1.tgz}
+
+  magic-string@0.30.21:
+    resolution: {integrity: sha1-VnY+wJoPqAkd8nh5/ZTRkHjADZE=, tarball: http://r.npm.sankuai.com/magic-string/download/magic-string-0.30.21.tgz}
+
+  mitt@3.0.1:
+    resolution: {integrity: sha1-6jbPDMMEA2Aa4HTI93twks2rNtE=, tarball: http://r.npm.sankuai.com/mitt/download/mitt-3.0.1.tgz}
+
+  muggle-string@0.4.1:
+    resolution: {integrity: sha1-OzZr1Dsy+AncIGWVNN0w58ig0yg=, tarball: http://r.npm.sankuai.com/muggle-string/download/muggle-string-0.4.1.tgz}
+
+  naive-ui@2.44.1:
+    resolution: {integrity: sha1-TDi48ZfOCbc4Vw6AIrx6kfF0QYU=, tarball: http://r.npm.sankuai.com/naive-ui/download/naive-ui-2.44.1.tgz}
+    engines: {node: '>=20'}
+    peerDependencies:
+      vue: ^3.0.0
+
+  nanoid@3.3.11:
+    resolution: {integrity: sha1-T08RLO++MDIC8hmYOBKJNiZtGFs=, tarball: http://r.npm.sankuai.com/nanoid/download/nanoid-3.3.11.tgz}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
+  node-releases@2.0.37:
+    resolution: {integrity: sha1-m9TxC3e6OcK5QC1Og5nEgqeX9nE=, tarball: http://r.npm.sankuai.com/node-releases/download/node-releases-2.0.37.tgz}
+
+  path-browserify@1.0.1:
+    resolution: {integrity: sha1-2YRUqcN1PVeQhg8W9ohnueRr4f0=, tarball: http://r.npm.sankuai.com/path-browserify/download/path-browserify-1.0.1.tgz}
+
+  perfect-debounce@1.0.0:
+    resolution: {integrity: sha1-nC6LwwsWnMmEpYt9WygEmDlZHSo=, tarball: http://r.npm.sankuai.com/perfect-debounce/download/perfect-debounce-1.0.0.tgz}
+
+  picocolors@1.1.1:
+    resolution: {integrity: sha1-PTIa8+q5ObCDyPkpodEs2oHCa2s=, tarball: http://r.npm.sankuai.com/picocolors/download/picocolors-1.1.1.tgz}
+
+  picomatch@4.0.4:
+    resolution: {integrity: sha1-/W9eAKFDCG4HTf/kySS4+yk7BYk=, tarball: http://r.npm.sankuai.com/picomatch/download/picomatch-4.0.4.tgz}
+    engines: {node: '>=12'}
+
+  pinia@3.0.4:
+    resolution: {integrity: sha1-dd3hJ4SmHjTB+mq80TwaEGHDYMA=, tarball: http://r.npm.sankuai.com/pinia/download/pinia-3.0.4.tgz}
+    peerDependencies:
+      typescript: '>=4.5.0'
+      vue: ^3.5.11
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  postcss-value-parser@4.2.0:
+    resolution: {integrity: sha1-cjwJkgg2um0+WvAZ+SvAlxwC5RQ=, tarball: http://r.npm.sankuai.com/postcss-value-parser/download/postcss-value-parser-4.2.0.tgz}
+
+  postcss@8.5.9:
+    resolution: {integrity: sha1-9u6eC5Tw8ZyX0vFyv71/xx/hzKQ=, tarball: http://r.npm.sankuai.com/postcss/download/postcss-8.5.9.tgz}
+    engines: {node: ^10 || ^12 || >=14}
+
+  rfdc@1.4.1:
+    resolution: {integrity: sha1-d492xPtzHZNBTo+SX77PZMzn9so=, tarball: http://r.npm.sankuai.com/rfdc/download/rfdc-1.4.1.tgz}
+
+  rollup@4.60.0:
+    resolution: {integrity: sha1-19aMjNqHPpbgiyRDUFYJt+e+nrg=, tarball: http://r.npm.sankuai.com/rollup/download/rollup-4.60.0.tgz}
+    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
+    hasBin: true
+
+  seemly@0.3.10:
+    resolution: {integrity: sha1-rPXSLIXOhVvzcVu7dA0Y9UTll0Y=, tarball: http://r.npm.sankuai.com/seemly/download/seemly-0.3.10.tgz}
+
+  source-map-js@1.2.1:
+    resolution: {integrity: sha1-HOVlD93YerwJnto33P8CTCZnrkY=, tarball: http://r.npm.sankuai.com/source-map-js/download/source-map-js-1.2.1.tgz}
+    engines: {node: '>=0.10.0'}
+
+  speakingurl@14.0.1:
+    resolution: {integrity: sha1-837I3cSrmOlgDByewySoxI13KlM=, tarball: http://r.npm.sankuai.com/speakingurl/download/speakingurl-14.0.1.tgz}
+    engines: {node: '>=0.10.0'}
+
+  superjson@2.2.6:
+    resolution: {integrity: sha1-oiOjqYgXKl+WVuIGP+X3M69A0Jk=, tarball: http://r.npm.sankuai.com/superjson/download/superjson-2.2.6.tgz}
+    engines: {node: '>=16'}
+
+  tailwindcss@4.2.2:
+    resolution: {integrity: sha1-aI+wdRyMqQROiQVGUQou6Bcwjoc=, tarball: http://r.npm.sankuai.com/tailwindcss/download/tailwindcss-4.2.2.tgz}
+
+  tapable@2.3.2:
+    resolution: {integrity: sha1-hnVf6rrQjYKia4kdsESAjGrQDxU=, tarball: http://r.npm.sankuai.com/tapable/download/tapable-2.3.2.tgz}
+    engines: {node: '>=6'}
+
+  tinyglobby@0.2.15:
+    resolution: {integrity: sha1-4ijdHmOM6pk9L9tPzS1GAqeZUcI=, tarball: http://r.npm.sankuai.com/tinyglobby/download/tinyglobby-0.2.15.tgz}
+    engines: {node: '>=12.0.0'}
+
+  treemate@0.3.11:
+    resolution: {integrity: sha1-fVL49pq5zjJvjROeCj0f+yXkgiI=, tarball: http://r.npm.sankuai.com/treemate/download/treemate-0.3.11.tgz}
+
+  tslib@2.3.0:
+    resolution: {integrity: sha1-gDuM2rPhK6WBpMpByIObuw2ssJ4=, tarball: http://r.npm.sankuai.com/tslib/download/tslib-2.3.0.tgz}
+
+  typescript@5.9.3:
+    resolution: {integrity: sha1-W09Z4VMQqxeiFvXWz1PuR27eZw8=, tarball: http://r.npm.sankuai.com/typescript/download/typescript-5.9.3.tgz}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  undici-types@7.16.0:
+    resolution: {integrity: sha1-/8zf82rqSITL/OmnUKBYAiT1ikY=, tarball: http://r.npm.sankuai.com/undici-types/download/undici-types-7.16.0.tgz}
+
+  update-browserslist-db@1.2.3:
+    resolution: {integrity: sha1-ZNdttYcTE2rL60xJEUNmzGzC6A0=, tarball: http://r.npm.sankuai.com/update-browserslist-db/download/update-browserslist-db-1.2.3.tgz}
+    hasBin: true
+    peerDependencies:
+      browserslist: '>= 4.21.0'
+
+  vdirs@0.1.8:
+    resolution: {integrity: sha1-oQO8Q7rKc4+N6pEqfpc3FUoZ28I=, tarball: http://r.npm.sankuai.com/vdirs/download/vdirs-0.1.8.tgz}
+    peerDependencies:
+      vue: ^3.0.11
+
+  vfonts@0.0.3:
+    resolution: {integrity: sha1-mZ1m/s6hjv7j8rlmyBEBrozgGik=, tarball: http://r.npm.sankuai.com/vfonts/download/vfonts-0.0.3.tgz}
+
+  vite@7.3.2:
+    resolution: {integrity: sha1-ywQXlNTBOV4ouuqYGY/W6PS5a1w=, tarball: http://r.npm.sankuai.com/vite/download/vite-7.3.2.tgz}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': ^20.19.0 || >=22.12.0
+      jiti: '>=1.21.0'
+      less: ^4.0.0
+      lightningcss: ^1.21.0
+      sass: ^1.70.0
+      sass-embedded: ^1.70.0
+      stylus: '>=0.54.8'
+      sugarss: ^5.0.0
+      terser: ^5.16.0
+      tsx: ^4.8.1
+      yaml: ^2.4.2
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      jiti:
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+      tsx:
+        optional: true
+      yaml:
+        optional: true
+
+  vooks@0.2.12:
+    resolution: {integrity: sha1-K24jMwt3usgcf3o0TEyj6fT2w3M=, tarball: http://r.npm.sankuai.com/vooks/download/vooks-0.2.12.tgz}
+    peerDependencies:
+      vue: ^3.0.0
+
+  vscode-uri@3.1.0:
+    resolution: {integrity: sha1-3QnsWmaji1w//8d0AVcTSW0U4Jw=, tarball: http://r.npm.sankuai.com/vscode-uri/download/vscode-uri-3.1.0.tgz}
+
+  vue-tsc@3.2.6:
+    resolution: {integrity: sha1-7+sSphZtUxME0uFgK1UCVDCb4V0=, tarball: http://r.npm.sankuai.com/vue-tsc/download/vue-tsc-3.2.6.tgz}
+    hasBin: true
+    peerDependencies:
+      typescript: '>=5.0.0'
+
+  vue@3.5.32:
+    resolution: {integrity: sha1-mny+sYGqSypxw+usSZVULPA1PeM=, tarball: http://r.npm.sankuai.com/vue/download/vue-3.5.32.tgz}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  vueuc@0.4.65:
+    resolution: {integrity: sha1-EsU6qcksMH8m9ikatAyrhM374AQ=, tarball: http://r.npm.sankuai.com/vueuc/download/vueuc-0.4.65.tgz}
+    peerDependencies:
+      vue: ^3.0.11
+
+  zrender@6.0.0:
+    resolution: {integrity: sha1-lHB3vGnN6nRBNJhJJ/Ey83J/gHk=, tarball: http://r.npm.sankuai.com/zrender/download/zrender-6.0.0.tgz}
+
+snapshots:
+
+  '@babel/helper-string-parser@7.27.1': {}
+
+  '@babel/helper-validator-identifier@7.28.5': {}
+
+  '@babel/parser@7.29.2':
+    dependencies:
+      '@babel/types': 7.29.0
+
+  '@babel/types@7.29.0':
+    dependencies:
+      '@babel/helper-string-parser': 7.27.1
+      '@babel/helper-validator-identifier': 7.28.5
+
+  '@css-render/plugin-bem@0.15.14(css-render@0.15.14)':
+    dependencies:
+      css-render: 0.15.14
+
+  '@css-render/vue3-ssr@0.15.14(vue@3.5.32(typescript@5.9.3))':
+    dependencies:
+      vue: 3.5.32(typescript@5.9.3)
+
+  '@emotion/hash@0.8.0': {}
+
+  '@esbuild/aix-ppc64@0.27.7':
+    optional: true
+
+  '@esbuild/android-arm64@0.27.7':
+    optional: true
+
+  '@esbuild/android-arm@0.27.7':
+    optional: true
+
+  '@esbuild/android-x64@0.27.7':
+    optional: true
+
+  '@esbuild/darwin-arm64@0.27.7':
+    optional: true
+
+  '@esbuild/darwin-x64@0.27.7':
+    optional: true
+
+  '@esbuild/freebsd-arm64@0.27.7':
+    optional: true
+
+  '@esbuild/freebsd-x64@0.27.7':
+    optional: true
+
+  '@esbuild/linux-arm64@0.27.7':
+    optional: true
+
+  '@esbuild/linux-arm@0.27.7':
+    optional: true
+
+  '@esbuild/linux-ia32@0.27.7':
+    optional: true
+
+  '@esbuild/linux-loong64@0.27.7':
+    optional: true
+
+  '@esbuild/linux-mips64el@0.27.7':
+    optional: true
+
+  '@esbuild/linux-ppc64@0.27.7':
+    optional: true
+
+  '@esbuild/linux-riscv64@0.27.7':
+    optional: true
+
+  '@esbuild/linux-s390x@0.27.7':
+    optional: true
+
+  '@esbuild/linux-x64@0.27.7':
+    optional: true
+
+  '@esbuild/netbsd-arm64@0.27.7':
+    optional: true
+
+  '@esbuild/netbsd-x64@0.27.7':
+    optional: true
+
+  '@esbuild/openbsd-arm64@0.27.7':
+    optional: true
+
+  '@esbuild/openbsd-x64@0.27.7':
+    optional: true
+
+  '@esbuild/openharmony-arm64@0.27.7':
+    optional: true
+
+  '@esbuild/sunos-x64@0.27.7':
+    optional: true
+
+  '@esbuild/win32-arm64@0.27.7':
+    optional: true
+
+  '@esbuild/win32-ia32@0.27.7':
+    optional: true
+
+  '@esbuild/win32-x64@0.27.7':
+    optional: true
+
+  '@jridgewell/gen-mapping@0.3.13':
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/trace-mapping': 0.3.31
+
+  '@jridgewell/remapping@2.3.5':
+    dependencies:
+      '@jridgewell/gen-mapping': 0.3.13
+      '@jridgewell/trace-mapping': 0.3.31
+
+  '@jridgewell/resolve-uri@3.1.2': {}
+
+  '@jridgewell/sourcemap-codec@1.5.5': {}
+
+  '@jridgewell/trace-mapping@0.3.31':
+    dependencies:
+      '@jridgewell/resolve-uri': 3.1.2
+      '@jridgewell/sourcemap-codec': 1.5.5
+
+  '@juggle/resize-observer@3.4.0': {}
+
+  '@rolldown/pluginutils@1.0.0-rc.2': {}
+
+  '@rollup/rollup-android-arm-eabi@4.60.0':
+    optional: true
+
+  '@rollup/rollup-android-arm64@4.60.0':
+    optional: true
+
+  '@rollup/rollup-darwin-arm64@4.60.0':
+    optional: true
+
+  '@rollup/rollup-darwin-x64@4.60.0':
+    optional: true
+
+  '@rollup/rollup-freebsd-arm64@4.60.0':
+    optional: true
+
+  '@rollup/rollup-freebsd-x64@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-arm-gnueabihf@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-arm-musleabihf@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-arm64-gnu@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-arm64-musl@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-loong64-gnu@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-loong64-musl@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-ppc64-gnu@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-ppc64-musl@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-riscv64-gnu@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-riscv64-musl@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-s390x-gnu@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-x64-gnu@4.60.0':
+    optional: true
+
+  '@rollup/rollup-linux-x64-musl@4.60.0':
+    optional: true
+
+  '@rollup/rollup-openbsd-x64@4.60.0':
+    optional: true
+
+  '@rollup/rollup-openharmony-arm64@4.60.0':
+    optional: true
+
+  '@rollup/rollup-win32-arm64-msvc@4.60.0':
+    optional: true
+
+  '@rollup/rollup-win32-ia32-msvc@4.60.0':
+    optional: true
+
+  '@rollup/rollup-win32-x64-gnu@4.60.0':
+    optional: true
+
+  '@rollup/rollup-win32-x64-msvc@4.60.0':
+    optional: true
+
+  '@tailwindcss/node@4.2.2':
+    dependencies:
+      '@jridgewell/remapping': 2.3.5
+      enhanced-resolve: 5.20.1
+      jiti: 2.6.1
+      lightningcss: 1.32.0
+      magic-string: 0.30.21
+      source-map-js: 1.2.1
+      tailwindcss: 4.2.2
+
+  '@tailwindcss/oxide-android-arm64@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide-darwin-arm64@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide-darwin-x64@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide-freebsd-x64@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide-linux-arm-gnueabihf@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide-linux-arm64-gnu@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide-linux-arm64-musl@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide-linux-x64-gnu@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide-linux-x64-musl@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide-wasm32-wasi@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide-win32-arm64-msvc@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide-win32-x64-msvc@4.2.2':
+    optional: true
+
+  '@tailwindcss/oxide@4.2.2':
+    optionalDependencies:
+      '@tailwindcss/oxide-android-arm64': 4.2.2
+      '@tailwindcss/oxide-darwin-arm64': 4.2.2
+      '@tailwindcss/oxide-darwin-x64': 4.2.2
+      '@tailwindcss/oxide-freebsd-x64': 4.2.2
+      '@tailwindcss/oxide-linux-arm-gnueabihf': 4.2.2
+      '@tailwindcss/oxide-linux-arm64-gnu': 4.2.2
+      '@tailwindcss/oxide-linux-arm64-musl': 4.2.2
+      '@tailwindcss/oxide-linux-x64-gnu': 4.2.2
+      '@tailwindcss/oxide-linux-x64-musl': 4.2.2
+      '@tailwindcss/oxide-wasm32-wasi': 4.2.2
+      '@tailwindcss/oxide-win32-arm64-msvc': 4.2.2
+      '@tailwindcss/oxide-win32-x64-msvc': 4.2.2
+
+  '@tailwindcss/vite@4.2.2(vite@7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0))':
+    dependencies:
+      '@tailwindcss/node': 4.2.2
+      '@tailwindcss/oxide': 4.2.2
+      tailwindcss: 4.2.2
+      vite: 7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)
+
+  '@types/estree@1.0.8': {}
+
+  '@types/lodash-es@4.17.12':
+    dependencies:
+      '@types/lodash': 4.17.24
+
+  '@types/lodash@4.17.24': {}
+
+  '@types/node@24.12.2':
+    dependencies:
+      undici-types: 7.16.0
+
+  '@vitejs/plugin-vue@6.0.5(vite@7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0))(vue@3.5.32(typescript@5.9.3))':
+    dependencies:
+      '@rolldown/pluginutils': 1.0.0-rc.2
+      vite: 7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0)
+      vue: 3.5.32(typescript@5.9.3)
+
+  '@volar/language-core@2.4.28':
+    dependencies:
+      '@volar/source-map': 2.4.28
+
+  '@volar/source-map@2.4.28': {}
+
+  '@volar/typescript@2.4.28':
+    dependencies:
+      '@volar/language-core': 2.4.28
+      path-browserify: 1.0.1
+      vscode-uri: 3.1.0
+
+  '@vue/compiler-core@3.5.32':
+    dependencies:
+      '@babel/parser': 7.29.2
+      '@vue/shared': 3.5.32
+      entities: 7.0.1
+      estree-walker: 2.0.2
+      source-map-js: 1.2.1
+
+  '@vue/compiler-dom@3.5.32':
+    dependencies:
+      '@vue/compiler-core': 3.5.32
+      '@vue/shared': 3.5.32
+
+  '@vue/compiler-sfc@3.5.32':
+    dependencies:
+      '@babel/parser': 7.29.2
+      '@vue/compiler-core': 3.5.32
+      '@vue/compiler-dom': 3.5.32
+      '@vue/compiler-ssr': 3.5.32
+      '@vue/shared': 3.5.32
+      estree-walker: 2.0.2
+      magic-string: 0.30.21
+      postcss: 8.5.9
+      source-map-js: 1.2.1
+
+  '@vue/compiler-ssr@3.5.32':
+    dependencies:
+      '@vue/compiler-dom': 3.5.32
+      '@vue/shared': 3.5.32
+
+  '@vue/devtools-api@7.7.9':
+    dependencies:
+      '@vue/devtools-kit': 7.7.9
+
+  '@vue/devtools-kit@7.7.9':
+    dependencies:
+      '@vue/devtools-shared': 7.7.9
+      birpc: 2.9.0
+      hookable: 5.5.3
+      mitt: 3.0.1
+      perfect-debounce: 1.0.0
+      speakingurl: 14.0.1
+      superjson: 2.2.6
+
+  '@vue/devtools-shared@7.7.9':
+    dependencies:
+      rfdc: 1.4.1
+
+  '@vue/language-core@3.2.6':
+    dependencies:
+      '@volar/language-core': 2.4.28
+      '@vue/compiler-dom': 3.5.32
+      '@vue/shared': 3.5.32
+      alien-signals: 3.1.2
+      muggle-string: 0.4.1
+      path-browserify: 1.0.1
+      picomatch: 4.0.4
+
+  '@vue/reactivity@3.5.32':
+    dependencies:
+      '@vue/shared': 3.5.32
+
+  '@vue/runtime-core@3.5.32':
+    dependencies:
+      '@vue/reactivity': 3.5.32
+      '@vue/shared': 3.5.32
+
+  '@vue/runtime-dom@3.5.32':
+    dependencies:
+      '@vue/reactivity': 3.5.32
+      '@vue/runtime-core': 3.5.32
+      '@vue/shared': 3.5.32
+      csstype: 3.2.3
+
+  '@vue/server-renderer@3.5.32(vue@3.5.32(typescript@5.9.3))':
+    dependencies:
+      '@vue/compiler-ssr': 3.5.32
+      '@vue/shared': 3.5.32
+      vue: 3.5.32(typescript@5.9.3)
+
+  '@vue/shared@3.5.32': {}
+
+  '@vue/tsconfig@0.8.1(typescript@5.9.3)(vue@3.5.32(typescript@5.9.3))':
+    optionalDependencies:
+      typescript: 5.9.3
+      vue: 3.5.32(typescript@5.9.3)
+
+  alien-signals@3.1.2: {}
+
+  async-validator@4.2.5: {}
+
+  autoprefixer@10.4.27(postcss@8.5.9):
+    dependencies:
+      browserslist: 4.28.1
+      caniuse-lite: 1.0.30001786
+      fraction.js: 5.3.4
+      picocolors: 1.1.1
+      postcss: 8.5.9
+      postcss-value-parser: 4.2.0
+
+  baseline-browser-mapping@2.10.16: {}
+
+  birpc@2.9.0: {}
+
+  browserslist@4.28.1:
+    dependencies:
+      baseline-browser-mapping: 2.10.16
+      caniuse-lite: 1.0.30001786
+      electron-to-chromium: 1.5.334
+      node-releases: 2.0.37
+      update-browserslist-db: 1.2.3(browserslist@4.28.1)
+
+  caniuse-lite@1.0.30001786: {}
+
+  copy-anything@4.0.5:
+    dependencies:
+      is-what: 5.5.0
+
+  css-render@0.15.14:
+    dependencies:
+      '@emotion/hash': 0.8.0
+      csstype: 3.0.11
+
+  csstype@3.0.11: {}
+
+  csstype@3.2.3: {}
+
+  date-fns-tz@3.2.0(date-fns@4.1.0):
+    dependencies:
+      date-fns: 4.1.0
+
+  date-fns@4.1.0: {}
+
+  detect-libc@2.1.2: {}
+
+  echarts@6.0.0:
+    dependencies:
+      tslib: 2.3.0
+      zrender: 6.0.0
+
+  electron-to-chromium@1.5.334: {}
+
+  enhanced-resolve@5.20.1:
+    dependencies:
+      graceful-fs: 4.2.11
+      tapable: 2.3.2
+
+  entities@7.0.1: {}
+
+  esbuild@0.27.7:
+    optionalDependencies:
+      '@esbuild/aix-ppc64': 0.27.7
+      '@esbuild/android-arm': 0.27.7
+      '@esbuild/android-arm64': 0.27.7
+      '@esbuild/android-x64': 0.27.7
+      '@esbuild/darwin-arm64': 0.27.7
+      '@esbuild/darwin-x64': 0.27.7
+      '@esbuild/freebsd-arm64': 0.27.7
+      '@esbuild/freebsd-x64': 0.27.7
+      '@esbuild/linux-arm': 0.27.7
+      '@esbuild/linux-arm64': 0.27.7
+      '@esbuild/linux-ia32': 0.27.7
+      '@esbuild/linux-loong64': 0.27.7
+      '@esbuild/linux-mips64el': 0.27.7
+      '@esbuild/linux-ppc64': 0.27.7
+      '@esbuild/linux-riscv64': 0.27.7
+      '@esbuild/linux-s390x': 0.27.7
+      '@esbuild/linux-x64': 0.27.7
+      '@esbuild/netbsd-arm64': 0.27.7
+      '@esbuild/netbsd-x64': 0.27.7
+      '@esbuild/openbsd-arm64': 0.27.7
+      '@esbuild/openbsd-x64': 0.27.7
+      '@esbuild/openharmony-arm64': 0.27.7
+      '@esbuild/sunos-x64': 0.27.7
+      '@esbuild/win32-arm64': 0.27.7
+      '@esbuild/win32-ia32': 0.27.7
+      '@esbuild/win32-x64': 0.27.7
+
+  escalade@3.2.0: {}
+
+  estree-walker@2.0.2: {}
+
+  evtd@0.2.4: {}
+
+  fdir@6.5.0(picomatch@4.0.4):
+    optionalDependencies:
+      picomatch: 4.0.4
+
+  fraction.js@5.3.4: {}
+
+  fsevents@2.3.3:
+    optional: true
+
+  graceful-fs@4.2.11: {}
+
+  highlight.js@11.11.1: {}
+
+  hookable@5.5.3: {}
+
+  is-what@5.5.0: {}
+
+  jiti@2.6.1: {}
+
+  lightningcss-android-arm64@1.32.0:
+    optional: true
+
+  lightningcss-darwin-arm64@1.32.0:
+    optional: true
+
+  lightningcss-darwin-x64@1.32.0:
+    optional: true
+
+  lightningcss-freebsd-x64@1.32.0:
+    optional: true
+
+  lightningcss-linux-arm-gnueabihf@1.32.0:
+    optional: true
+
+  lightningcss-linux-arm64-gnu@1.32.0:
+    optional: true
+
+  lightningcss-linux-arm64-musl@1.32.0:
+    optional: true
+
+  lightningcss-linux-x64-gnu@1.32.0:
+    optional: true
+
+  lightningcss-linux-x64-musl@1.32.0:
+    optional: true
+
+  lightningcss-win32-arm64-msvc@1.32.0:
+    optional: true
+
+  lightningcss-win32-x64-msvc@1.32.0:
+    optional: true
+
+  lightningcss@1.32.0:
+    dependencies:
+      detect-libc: 2.1.2
+    optionalDependencies:
+      lightningcss-android-arm64: 1.32.0
+      lightningcss-darwin-arm64: 1.32.0
+      lightningcss-darwin-x64: 1.32.0
+      lightningcss-freebsd-x64: 1.32.0
+      lightningcss-linux-arm-gnueabihf: 1.32.0
+      lightningcss-linux-arm64-gnu: 1.32.0
+      lightningcss-linux-arm64-musl: 1.32.0
+      lightningcss-linux-x64-gnu: 1.32.0
+      lightningcss-linux-x64-musl: 1.32.0
+      lightningcss-win32-arm64-msvc: 1.32.0
+      lightningcss-win32-x64-msvc: 1.32.0
+
+  lodash-es@4.18.1: {}
+
+  lodash@4.18.1: {}
+
+  magic-string@0.30.21:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.5
+
+  mitt@3.0.1: {}
+
+  muggle-string@0.4.1: {}
+
+  naive-ui@2.44.1(vue@3.5.32(typescript@5.9.3)):
+    dependencies:
+      '@css-render/plugin-bem': 0.15.14(css-render@0.15.14)
+      '@css-render/vue3-ssr': 0.15.14(vue@3.5.32(typescript@5.9.3))
+      '@types/lodash': 4.17.24
+      '@types/lodash-es': 4.17.12
+      async-validator: 4.2.5
+      css-render: 0.15.14
+      csstype: 3.2.3
+      date-fns: 4.1.0
+      date-fns-tz: 3.2.0(date-fns@4.1.0)
+      evtd: 0.2.4
+      highlight.js: 11.11.1
+      lodash: 4.18.1
+      lodash-es: 4.18.1
+      seemly: 0.3.10
+      treemate: 0.3.11
+      vdirs: 0.1.8(vue@3.5.32(typescript@5.9.3))
+      vooks: 0.2.12(vue@3.5.32(typescript@5.9.3))
+      vue: 3.5.32(typescript@5.9.3)
+      vueuc: 0.4.65(vue@3.5.32(typescript@5.9.3))
+
+  nanoid@3.3.11: {}
+
+  node-releases@2.0.37: {}
+
+  path-browserify@1.0.1: {}
+
+  perfect-debounce@1.0.0: {}
+
+  picocolors@1.1.1: {}
+
+  picomatch@4.0.4: {}
+
+  pinia@3.0.4(typescript@5.9.3)(vue@3.5.32(typescript@5.9.3)):
+    dependencies:
+      '@vue/devtools-api': 7.7.9
+      vue: 3.5.32(typescript@5.9.3)
+    optionalDependencies:
+      typescript: 5.9.3
+
+  postcss-value-parser@4.2.0: {}
+
+  postcss@8.5.9:
+    dependencies:
+      nanoid: 3.3.11
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  rfdc@1.4.1: {}
+
+  rollup@4.60.0:
+    dependencies:
+      '@types/estree': 1.0.8
+    optionalDependencies:
+      '@rollup/rollup-android-arm-eabi': 4.60.0
+      '@rollup/rollup-android-arm64': 4.60.0
+      '@rollup/rollup-darwin-arm64': 4.60.0
+      '@rollup/rollup-darwin-x64': 4.60.0
+      '@rollup/rollup-freebsd-arm64': 4.60.0
+      '@rollup/rollup-freebsd-x64': 4.60.0
+      '@rollup/rollup-linux-arm-gnueabihf': 4.60.0
+      '@rollup/rollup-linux-arm-musleabihf': 4.60.0
+      '@rollup/rollup-linux-arm64-gnu': 4.60.0
+      '@rollup/rollup-linux-arm64-musl': 4.60.0
+      '@rollup/rollup-linux-loong64-gnu': 4.60.0
+      '@rollup/rollup-linux-loong64-musl': 4.60.0
+      '@rollup/rollup-linux-ppc64-gnu': 4.60.0
+      '@rollup/rollup-linux-ppc64-musl': 4.60.0
+      '@rollup/rollup-linux-riscv64-gnu': 4.60.0
+      '@rollup/rollup-linux-riscv64-musl': 4.60.0
+      '@rollup/rollup-linux-s390x-gnu': 4.60.0
+      '@rollup/rollup-linux-x64-gnu': 4.60.0
+      '@rollup/rollup-linux-x64-musl': 4.60.0
+      '@rollup/rollup-openbsd-x64': 4.60.0
+      '@rollup/rollup-openharmony-arm64': 4.60.0
+      '@rollup/rollup-win32-arm64-msvc': 4.60.0
+      '@rollup/rollup-win32-ia32-msvc': 4.60.0
+      '@rollup/rollup-win32-x64-gnu': 4.60.0
+      '@rollup/rollup-win32-x64-msvc': 4.60.0
+      fsevents: 2.3.3
+
+  seemly@0.3.10: {}
+
+  source-map-js@1.2.1: {}
+
+  speakingurl@14.0.1: {}
+
+  superjson@2.2.6:
+    dependencies:
+      copy-anything: 4.0.5
+
+  tailwindcss@4.2.2: {}
+
+  tapable@2.3.2: {}
+
+  tinyglobby@0.2.15:
+    dependencies:
+      fdir: 6.5.0(picomatch@4.0.4)
+      picomatch: 4.0.4
+
+  treemate@0.3.11: {}
+
+  tslib@2.3.0: {}
+
+  typescript@5.9.3: {}
+
+  undici-types@7.16.0: {}
+
+  update-browserslist-db@1.2.3(browserslist@4.28.1):
+    dependencies:
+      browserslist: 4.28.1
+      escalade: 3.2.0
+      picocolors: 1.1.1
+
+  vdirs@0.1.8(vue@3.5.32(typescript@5.9.3)):
+    dependencies:
+      evtd: 0.2.4
+      vue: 3.5.32(typescript@5.9.3)
+
+  vfonts@0.0.3: {}
+
+  vite@7.3.2(@types/node@24.12.2)(jiti@2.6.1)(lightningcss@1.32.0):
+    dependencies:
+      esbuild: 0.27.7
+      fdir: 6.5.0(picomatch@4.0.4)
+      picomatch: 4.0.4
+      postcss: 8.5.9
+      rollup: 4.60.0
+      tinyglobby: 0.2.15
+    optionalDependencies:
+      '@types/node': 24.12.2
+      fsevents: 2.3.3
+      jiti: 2.6.1
+      lightningcss: 1.32.0
+
+  vooks@0.2.12(vue@3.5.32(typescript@5.9.3)):
+    dependencies:
+      evtd: 0.2.4
+      vue: 3.5.32(typescript@5.9.3)
+
+  vscode-uri@3.1.0: {}
+
+  vue-tsc@3.2.6(typescript@5.9.3):
+    dependencies:
+      '@volar/typescript': 2.4.28
+      '@vue/language-core': 3.2.6
+      typescript: 5.9.3
+
+  vue@3.5.32(typescript@5.9.3):
+    dependencies:
+      '@vue/compiler-dom': 3.5.32
+      '@vue/compiler-sfc': 3.5.32
+      '@vue/runtime-dom': 3.5.32
+      '@vue/server-renderer': 3.5.32(vue@3.5.32(typescript@5.9.3))
+      '@vue/shared': 3.5.32
+    optionalDependencies:
+      typescript: 5.9.3
+
+  vueuc@0.4.65(vue@3.5.32(typescript@5.9.3)):
+    dependencies:
+      '@css-render/vue3-ssr': 0.15.14(vue@3.5.32(typescript@5.9.3))
+      '@juggle/resize-observer': 3.4.0
+      css-render: 0.15.14
+      evtd: 0.2.4
+      seemly: 0.3.10
+      vdirs: 0.1.8(vue@3.5.32(typescript@5.9.3))
+      vooks: 0.2.12(vue@3.5.32(typescript@5.9.3))
+      vue: 3.5.32(typescript@5.9.3)
+
+  zrender@6.0.0:
+    dependencies:
+      tslib: 2.3.0
